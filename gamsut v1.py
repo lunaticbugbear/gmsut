@@ -42,10 +42,13 @@ while True:
                     print('Seri!')
             if K > AI:
                 print(f'\nSelamat {player_name}! Kamu adalah pemenangnya!.')
+                break
             elif K < AI:
                 print(f'\nYahh.. {player_name} kamu kalah.')
+                break
             else:
                 print('\nPermainan berakhir seri.')
+                break
         except ValueError:
             print('input only number plzz')
 
@@ -84,10 +87,13 @@ while True:
                     print('Seri!')
             if P1 > P2:
                 print('\nPemenangnya adalah Player 1.')
+                break
             elif P1 < P2:
                 print('\nPemenangnya adalah Player 2.')
+                break
             else:
                 print('\nPermainan berakhir seri.')
+                break
         except ValueError:
             print('input only number plzz..')
     elif mode != 1 and mode != 2:
